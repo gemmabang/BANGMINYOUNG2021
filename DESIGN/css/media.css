@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+
+@media screen and (max-width:768px){
+    
+    /*모바일세팅*/
+    body{
+        min-width:auto;
+    }
+    
+    .inner{
+        width:auto;
+        margin:0;
+    }
+
+    .cf::after{
+        display: none;
+    }
+
+          
+    /*header*/
+    #header{
+        padding:0;
+        text-align:center;
+        font-family:'Black Han Sans', sans-serif;
+    }
+    
+    #header h1{
+        font-size:2.5em;
+        margin-top:10%;
+        margin-bottom:0;
+    }
+    #header h2{
+        font-size:1.5em;
+        margin-bottom:2%;
+        margin-top:0;
+    }   
+    
+    #header p{
+        font-size: 0.7em;
+        margin-bottom: 10%;
+    }
+    /*메인*/
+    .mainCon{text-align:unset;}
+
+    ul li{
+        display:block;
+        width:90%;
+        margin:2% auto;
+    }

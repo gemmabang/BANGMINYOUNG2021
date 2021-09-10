@@ -1,0 +1,36 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');/*blackhansans*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');/*notoserif*/
+
+body,h1,h2,h3,h4,h5,h6,p,dl,dt,dd{margin:0;}
+
+body{
+    min-width:1200px;
+    color:#000;
+    font-family: 'notosans', sans-serif;
+    font-weight: 200;
+}
+
+ul,li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+    
+}
+
+.inner{
+    width:1400px;
+    margin:0 auto; 
+}
+
+
+.cf::after{
+    content:""; 
+    display:block; 
+    clear:both; 
+}
